@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 
 
 int main(int argc, char const *argv[]){
@@ -11,7 +13,7 @@ int main(int argc, char const *argv[]){
     printf("digite o valor de um segundo numero: ");
     scanf("%i",&b);
 
-    if(a>b){
+    if(a<b){
         printf("o menor e:%i",a);
     }
 

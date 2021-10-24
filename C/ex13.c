@@ -1,9 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 #include <stdlib.h>
+
 
 int main(int argc, char const *argv[])
 
 {
+
 
     int a,b,area;
     
@@ -12,8 +14,18 @@ int main(int argc, char const *argv[])
     printf("digite o valor da altura do retangulo: ");
     scanf("%i",&b);
     area=a*b;
-    printf("a area do retangulo %i e %i e igual a %i",a,b,area);
+    printf("\narea do retangulo  e igual a:%i",area);
+
+    if(area>100){
+    printf("\nTerreno Grande!");
+    }
+
+    else{
+    printf("\nTerreno Pequeno!");
+    }
+
+
 
     return 0;
+    
 }
-
