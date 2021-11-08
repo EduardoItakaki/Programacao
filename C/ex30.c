@@ -6,18 +6,18 @@
 
 int main(int argc, char *argv[])
 {
-    int fibo,a,b;
+    int fibonacci,a,b;
 
-printf("\nBEM VINDO!   \n");
-fibo = 1;
+printf("Digite 30 numeros \n");
+fibonacci = 1;
 a=0;
 b=1;
 
-while(fibo <832040){
-    fibo = a + b;
+while(fibonacci <832040){
+    fibonacci = a + b;
     b=a;
-    a=fibo;
-    printf("\n %i\n" , fibo);
+    a=fibonacci;
+    printf("\n %i\n" , fibonacci);
 }
 
 return 0;
